@@ -1,4 +1,6 @@
 import React from 'react'
+import Marco from '../../img/marco.jpeg'
+import Vytor from '../../img/vitor.jpeg'
 
 const QuemSomos = props => {
     return (
@@ -13,7 +15,7 @@ const QuemSomos = props => {
                         Sem fins lucrativos esta página busca apenas servir de ferramenta para ajudar a população em suas gestões pessoais, onde podem ver de maneira interativa a entrada e saída de seu capital.
                         <br /><br />'Ao infinito e além.' - Buzz Lightyear</h3>
                 </div>
-
+                <br /><br />
                 <section className='equipe'>
                     <h2><strong>NOSSA EQUIPE</strong></h2>
                     <div className='row text-center'>
@@ -21,7 +23,7 @@ const QuemSomos = props => {
 
                         <div className='col-md-6 mb-2'>
                             <h2 className='my-5 h2'>Marco Venício</h2>
-                            <img className='rounded-circle' alt='100x100' src='img/marco.jpeg'
+                            <img className='rounded-circle' alt='100x100' src={Marco}
                                 data-holder-rendered='true' />
                             <p className='title'>Cofundador</p>
                             <p className='description'>Responsável pela área de finanças e orçamentos.</p>
@@ -30,7 +32,7 @@ const QuemSomos = props => {
 
                         <div className='col-md-6 mb-2'>
                             <h2 className='my-5 h2'>Vitor Fernandes</h2>
-                            <img className='rounded-circle' alt='100x100' src='img/vitor.jpeg'
+                            <img className='rounded-circle' alt='100x100' src={Vytor}
                                 data-holder-rendered='true' />
                             <p className='title'>Cofundador</p>
                             <p className='description'>Responsável pela área de contratos e papeladas.</p>
