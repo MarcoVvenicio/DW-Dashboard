@@ -1,6 +1,7 @@
 import React from 'react'
 import Marco from '../../img/marco.jpeg'
 import Vytor from '../../img/vitor.jpeg'
+import './quemsomos.css'
 
 const QuemSomos = props => {
     return (

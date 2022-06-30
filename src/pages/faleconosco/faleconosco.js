@@ -1,4 +1,5 @@
 import React from 'react'
+import './faleconosco.css'
 
 const faleconosco = props => {
     return (

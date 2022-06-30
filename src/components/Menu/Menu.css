@@ -1,0 +1,36 @@
+
+.menu{
+    text-align:center;
+}
+
+.menu ul{
+    background-color: #2b384d;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border:#1abc9c 4px solid;
+}
+
+.menu ul li{
+    display: inline;
+    position: relative;
+}
+
+
+.menu ul li a{
+    color:rgb(231, 253, 253);
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    transition: background 0.5s;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+.menu ul li a:hover{
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    color: #51627f;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Cabecalho.css'
 
 const Cabecalho = props => {
     return(

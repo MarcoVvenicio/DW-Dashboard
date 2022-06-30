@@ -1,9 +1,9 @@
 
 import QuemSomos from './pages/quemsomos/quemsomos'
 import Faleconosco from './pages/faleconosco/faleconosco'
-import Rodape from './components/Rodape'
-import Cabecalho from './components/Cabecalho'
-import Menu from './components/Menu'
+import Rodape from './components/Rodape/Rodape'
+import Cabecalho from './components/Cabecalho/Cabecalho'
+import Menu from './components/Menu/Menu'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
