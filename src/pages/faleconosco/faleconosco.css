@@ -32,6 +32,14 @@ button{
     margin: 3px;
 }
 
+button:hover{
+    background-color: #0afaca;
+}
+
+button:focus{
+    background-color: #006e58;
+}
+
 p{
     align-items: center;
 }

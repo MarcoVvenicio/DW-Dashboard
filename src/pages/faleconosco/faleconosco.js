@@ -1,5 +1,6 @@
 import React from 'react'
 import './faleconosco.css'
+import '../../salvarFaleConosco.js'
 
 const faleconosco = props => {
     return (
@@ -22,7 +23,7 @@ const faleconosco = props => {
                     <input type="text" id="comentario" placeholder="Digite seu comentário" />
                 </div>
                 <div>
-                    <button >Enviar</button>
+                    <button onclick="enviar()">Enviar</button>
                 </div>
             </div>
         </section >
